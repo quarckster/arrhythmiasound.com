@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Архив: {{ period | reverse | join(' ') }} | {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<h1 class="font-bold text-4xl my-10">Архив: {{ period | reverse | join(' ') }}</h1>
+
+<dl>
+{% for article in dates %}
+    <dt>{{ article.locale_date }}</dt>
+    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+{% endfor %}
+</dl>
+{% endblock %}

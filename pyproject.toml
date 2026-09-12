@@ -1,0 +1,12 @@
+[project]
+name = "arrhythmiasound"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "pelican-neighbors>=1.2.0",
+    "pelican-readtime>=0.2.1",
+    "pelican-search>=1.1.1",
+    "pelican-sitemap>=1.2.2",
+    "pelican[markdown]>=4.12.0",
+]

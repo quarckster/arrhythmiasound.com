@@ -1,0 +1,70 @@
+name: Build and deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      # Site search is built by the Stork CLI. The published Linux binary needs
+      # OpenSSL 1.1, which modern runners do not ship, so build it from source
+      # once and cache it.
+      - name: Cache stork
+        id: stork-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/stork
+          key: stork-1.6.0-${{ runner.os }}
+
+      - name: Build stork
+        if: steps.stork-cache.outputs.cache-hit != 'true'
+        run: cargo install stork-search --locked --version 1.6.0
+
+      - name: Install Python dependencies
+        run: uv sync --locked
+
+      - name: Build site
+        env:
+          # Custom domain if one is set in the repository's Pages settings,
+          # otherwise https://<user>.github.io/<repo>/
+          SITEURL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          make publish
+          touch output/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

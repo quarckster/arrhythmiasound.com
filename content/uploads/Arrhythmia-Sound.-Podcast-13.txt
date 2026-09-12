@@ -1,0 +1,54 @@
+﻿REM GENRE Electronic
+REM DATE 2009
+REM COMMENT 
+PERFORMER "Various Artists"
+TITLE "Arrhythmia Sound. Podcast #13"
+FILE "Arrhythmia Sound. Podcast #13.flac" WAVE
+TRACK 01 AUDIO
+TITLE "Streets"
+PERFORMER "Subheim"
+INDEX 01 00:00:00
+TRACK 02 AUDIO
+TITLE "Downfall (Apparent Symmetry Remix)"
+PERFORMER "LPF12"
+INDEX 01 06:10:00
+TRACK 03 AUDIO
+TITLE "Nothing You Say Is Carved In Stone (amictric Remix)"
+PERFORMER "LPF12"
+INDEX 01 10:20:00
+TRACK 04 AUDIO
+TITLE "Stepoma"
+PERFORMER "Einóma"
+INDEX 01 14:30:00
+TRACK 05 AUDIO
+TITLE "term/echo"
+PERFORMER "Access To Arasaka"
+INDEX 01 21:05:00
+TRACK 06 AUDIO
+TITLE "Jiittirrrrriii"
+PERFORMER "Proem"
+INDEX 01 23:40:00
+TRACK 07 AUDIO
+TITLE "I Remember"
+PERFORMER "Undermathic"
+INDEX 01 27:00:00
+TRACK 08 AUDIO
+TITLE "13AM"
+PERFORMER "Lights Out Asia"
+INDEX 01 33:45:00
+TRACK 09 AUDIO
+TITLE "My Veins Are Blocked"
+PERFORMER "Boy Is Fiction"
+INDEX 01 38:37:00
+TRACK 10 AUDIO
+TITLE "We Walk Fast"
+PERFORMER "Saycet"
+INDEX 01 45:02:00
+TRACK 11 AUDIO
+TITLE "Mano (Sabi Remix)"
+PERFORMER "Sabi"
+INDEX 01 48:40:00
+TRACK 12 AUDIO
+TITLE "Blue Verve Vein (Mrs Jynx Remix)"
+PERFORMER "Skytree"
+INDEX 01 53:15:00

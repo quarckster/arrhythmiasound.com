@@ -1,0 +1,14 @@
+# build output & python env
+/output/
+/.venv/
+__pycache__/
+*.pyc
+
+# WordPress source material: large, and the DB dump holds commenters' e-mail
+# addresses. Keep it out of the repo; see README for how to regenerate content.
+/public_html.zip
+/*.sql.gz
+/wordpress/
+
+# theme build artefacts (the prebuilt CSS in themes/papyrus/static is committed)
+/themes/papyrus/node_modules/

@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Поиск по блогам</title>
+<meta name="date" content="2011-09-27 19:36:03" />
+<meta name="modified" content="2013-03-02 09:57:08" />
+<meta name="slug" content="search" />
+<meta name="lang" content="ru" />
+<meta name="url" content="search/" />
+<meta name="save_as" content="search/index.html" />
+<meta name="author" content="Quarck" />
+<meta name="wp_id" content="1409" />
+</head>
+<body>
+<p>Этот поиск находит страницы не только на Arrhythmia Sound, но также и на некоторых других интересных ресурсах. <a title="Добавлен поиск по блогам" href="/misc/poisk-po-blogam.html" target="_blank"><strong>Подробнее...</strong></a></p>
+<div id="cse" style="width: 100%;">Загрузка</div>
+<p><script type="text/javascript" src="http://www.google.com/jsapi"></script><script type="text/javascript">// < ![CDATA[
+function parseQueryFromUrl () {
+    var queryParamName = "q";
+    var search = window.location.search.substr(1);
+    var parts = search.split('&#038;');
+    for (var i = 0; i < parts.length; i++) {       var keyvaluepair = parts[i].split('=');       if (decodeURIComponent(keyvaluepair[0]) == queryParamName) {         return decodeURIComponent(keyvaluepair[1].replace(/\+/g, ' '));       }     }     return '';   }   var _gaq = _gaq || [];   _gaq.push(["_setAccount", "UA-9236674-1"]);   function _trackQuery(control, searcher, query) {     var gaQueryParamName = "q";     var loc = document.location;     var url = [       loc.pathname,       loc.search,       loc.search ? '&#038;' : '?',       gaQueryParamName == '' ? 'q' : encodeURIComponent(gaQueryParamName),       '=',       encodeURIComponent(query)     ].join('');     _gaq.push(["_trackPageview", url]);   }   google.load('search', '1', {language : 'ru', style : google.loader.themes.MINIMALIST});   google.setOnLoadCallback(function() {     var customSearchControl = new google.search.CustomSearchControl('006904748457461299571:us7u5h2f46i');     customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);     customSearchControl.setSearchStartingCallback(null, _trackQuery);     var options = new google.search.DrawOptions();     options.setAutoComplete(true);     customSearchControl.draw('cse', options);     var queryFromUrl = parseQueryFromUrl();     if (queryFromUrl) {       customSearchControl.execute(queryFromUrl);     }   }, true);
+// ]]></script></p>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /tag/
+Disallow: /author/
+Disallow: /page/
+Disallow: /search.html
+
+Sitemap: https://www.arrhythmiasound.com/sitemap.xml

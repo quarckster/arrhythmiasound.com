@@ -1,0 +1,54 @@
+﻿REM GENRE Electronic
+REM DATE 2010
+REM COMMENT 
+PERFORMER "Various Artists"
+TITLE "Arrhythmia Sound. The Best Of 2005"
+FILE "Arrhythmia Sound. The Best Of 2005" WAVE
+TRACK 01 AUDIO
+TITLE "Inductancia"
+PERFORMER "Danieto"
+INDEX 01 00:00:00
+TRACK 02 AUDIO
+TITLE "C-Tools"
+PERFORMER "Cast"
+INDEX 01 04:52:00
+TRACK 03 AUDIO
+TITLE "Spektrum"
+PERFORMER "Bretschneider + Steinbruchel"
+INDEX 01 10:00:00
+TRACK 04 AUDIO
+TITLE "Ulverized Substance"
+PERFORMER "Architect"
+INDEX 01 14:24:00
+TRACK 05 AUDIO
+TITLE "Whirl // A Stream Of Comfort, To Cool And Surround Me, Untill I Lose Sight Of My Own Defeat"
+PERFORMER "Bichi"
+INDEX 01 20:43:00
+TRACK 06 AUDIO
+TITLE "Kirlian Choices"
+PERFORMER "The Flashbulb"
+INDEX 01 25:00:00
+TRACK 07 AUDIO
+TITLE "Hajnal"
+PERFORMER "Venetian Snares"
+INDEX 01 29:43:00
+TRACK 08 AUDIO
+TITLE "Leraine"
+PERFORMER "Secede"
+INDEX 01 36:47:00
+TRACK 09 AUDIO
+TITLE "Komponent"
+PERFORMER "Apparat"
+INDEX 01 43:24:00
+TRACK 10 AUDIO
+TITLE "Sixteen"
+PERFORMER "Seven Ark"
+INDEX 01 49:10:00
+TRACK 11 AUDIO
+TITLE "Fade"
+PERFORMER "Infinite Scale"
+INDEX 01 52:39:00
+TRACK 12 AUDIO
+TITLE "Farewell"
+PERFORMER "Julien Neto"
+INDEX 01 56:49:00

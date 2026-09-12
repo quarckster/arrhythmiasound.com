@@ -1,0 +1,58 @@
+﻿REM GENRE Electronic
+REM DATE 2011
+REM COMMENT 
+PERFORMER "Various Artists"
+TITLE "Arrhythmia Sound. Podcast #14"
+FILE "Arrhythmia Sound. Podcast #14" WAVE
+TRACK 01 AUDIO
+TITLE "Deathnote"
+PERFORMER "Mobthrow"
+INDEX 01 00:00:00
+TRACK 02 AUDIO
+TITLE "Can't Sleep"
+PERFORMER "Kryptic Minds"
+INDEX 01 05:45:00
+TRACK 03 AUDIO
+TITLE "Flikr Of Ur Eyes"
+PERFORMER "Swarms"
+INDEX 01 10:15:00
+TRACK 04 AUDIO
+TITLE "When Angels Travel"
+PERFORMER "DNN"
+INDEX 01 14:49:00
+TRACK 05 AUDIO
+TITLE "Catch The Midnight Girl"
+PERFORMER "Stendeck"
+INDEX 01 18:10:00
+TRACK 06 AUDIO
+TITLE "Endurance"
+PERFORMER "Desolate"
+INDEX 01 21:35:00
+TRACK 07 AUDIO
+TITLE "Dead City Rising"
+PERFORMER "Mobthrow"
+INDEX 01 25:50:00
+TRACK 08 AUDIO
+TITLE "Giallo"
+PERFORMER "The Kilimanjaro Darkjazz Ensemble"
+INDEX 01 30:30:00
+TRACK 09 AUDIO
+TITLE "Danner Reznik"
+PERFORMER "Quench"
+INDEX 01 35:55:00
+TRACK 10 AUDIO
+TITLE "Perlen, Honig Oder Untergang"
+PERFORMER "Bersarin Quartett"
+INDEX 01 39:10:00
+TRACK 11 AUDIO
+TITLE "Cynosure"
+PERFORMER "Access To Arasaka"
+INDEX 01 43:13:00
+TRACK 12 AUDIO
+TITLE "Gondwana"
+PERFORMER "Flint Glass | Polarlicht 4.1"
+INDEX 01 46:40:00
+TRACK 13 AUDIO
+TITLE "Acoustic Tale 5"
+PERFORMER "Field Rotation"
+INDEX 01 49:08:00

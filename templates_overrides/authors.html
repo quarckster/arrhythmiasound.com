@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Авторы | {{ SITENAME }}{% endblock %}
+
+{% block content %}
+    <h1 class="font-bold text-4xl my-10">Авторы</h1>
+    <ul>
+    {% for author, articles in authors|sort %}
+        <li><a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> ({{ articles|count }})</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
