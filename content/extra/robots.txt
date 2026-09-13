@@ -4,4 +4,4 @@ Disallow: /author/
 Disallow: /page/
 Disallow: /search.html
 
-Sitemap: https://www.arrhythmiasound.com/sitemap.xml
+Sitemap: https://arrhythmiasound.com/sitemap.xml

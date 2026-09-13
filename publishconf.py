@@ -7,7 +7,7 @@ from pelicanconf import *  # noqa: F401,F403
 
 # SITEURL can be overridden from the environment; the GitHub Pages workflow
 # passes the URL that Pages actually serves (custom domain or *.github.io).
-SITEURL = os.environ.get("SITEURL", "https://www.arrhythmiasound.com").rstrip("/")
+SITEURL = os.environ.get("SITEURL", "https://arrhythmiasound.com").rstrip("/")
 FEED_DOMAIN = SITEURL
 RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = True
